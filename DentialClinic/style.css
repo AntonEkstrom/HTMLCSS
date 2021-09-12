@@ -37,7 +37,7 @@
 .navbar-top .navbar-top-items .working-hour i {
     
     font-size: 20px;
-    color: #2BAAEC
+    color: #2BAAEC;
     
 }
 
@@ -114,6 +114,7 @@ align-items: center;
     border:#25E6C8;
     border-radius: 10px;
     margin-top: 30px;
+    
 }
 
 
