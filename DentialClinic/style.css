@@ -76,8 +76,8 @@ align-items: center;
     background-color: #DEDEDE;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height:700px;
+    align-items: flex-end;
 }
 
 .showcase .showcase-items{
@@ -102,6 +102,7 @@ align-items: center;
 
 .showcase .showcase-items .showcase-text .our-clinic{
     display: flex;
+    margin-top: 10px;
 }
 
 .showcase .showcase-items .showcase-text .clinicbtn{
@@ -113,9 +114,32 @@ align-items: center;
     background-color:#25E6C8;
     border:#25E6C8;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 
 
 /* SHOWCASE END*/
+
+/* ABOUT US START*/
+
+.aboutus
+{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:811px;
+}
+
+.aboutus .male {
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+
+
+
+
+/* ABOUT US END*/
