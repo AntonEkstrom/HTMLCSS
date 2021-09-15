@@ -107,7 +107,7 @@ align-items: center;
 .showcase .showcase-items .showcase-text {
     display: flex;
     flex-direction: column;
-    /* margin-left: 100px; */
+    margin-left: 100px; 
     margin-top: 160px;
 
 }
@@ -132,6 +132,10 @@ align-items: center;
     flex-direction: column;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+
+.our-clinic{
+
 }
 
 #our-clinic2{
