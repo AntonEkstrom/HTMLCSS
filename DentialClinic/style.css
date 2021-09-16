@@ -86,13 +86,14 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     height:700px;
-    width: 100%;
+    
     align-items: flex-end;
 }
 
 .showcase .container {
-    width: 100%;
-
+    display: flex;
+    width: auto;
+    
 }
 
 .showcase .showcase-items{
@@ -107,9 +108,10 @@ align-items: center;
 .showcase .showcase-items .showcase-text {
     display: flex;
     flex-direction: column;
-    margin-left: 100px; 
+    margin-left: 150px; 
     margin-top: 160px;
-
+    width: 690px;
+    
 }
 
 .showcase .showcase-items .showcase-text .modern {
@@ -134,9 +136,7 @@ align-items: center;
     font-family: 'Roboto', sans-serif;
 }
 
-.our-clinic{
 
-}
 
 #our-clinic2{
     margin-top: -15px;
