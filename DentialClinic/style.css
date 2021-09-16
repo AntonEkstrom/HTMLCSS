@@ -163,15 +163,109 @@ align-items: center;
 .aboutus
 {
     background-color: #FFFFFF;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     height:811px;
 }
 
+.aboutus .container {
+    display: flex;
+}
+
+#clinic-text{
+    color: #2BAAEC;
+}
+
+.text{
+    margin-top: 123px;
+}
+
+.text-title {
+    display: flex;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 40px;
+    color: #363636;
+    
+}
+
+.line{
+    display: flex;
+    border-bottom: 4px solid #25E6C8;
+    width: 705px;
+}
+
+.first-text{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #626262;
+    margin-top: 45px;
+}
+
+.second-text{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #626262;
+    margin-top: 18px;
+}
+
+.info-text{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    color: black;
+    font-size: 18px;
+    
+    width: 1000px;
+}
+
+.patients{
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.treatments{
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.open-clinic{
+    margin-top: 30px;
+}
+
+#nine{
+    color: #2BAAEC;
+    font-size: 40px;
+    
+}
+
+#twelve{
+    color: #2BAAEC;
+    font-size: 40px;
+}
+
+#two{  
+    color: #2BAAEC;
+    font-size: 40px;
+}
+
+#happy{
+    margin-top: -30px;
+}
+
+#performed{
+    margin-top: -46px;
+}
+
+#open1{
+    margin-top: -30px;
+}
+
 .aboutus .male {
     display: flex;
-    justify-content:flex-end;
+    margin-top: 87px;
 
 }
 
