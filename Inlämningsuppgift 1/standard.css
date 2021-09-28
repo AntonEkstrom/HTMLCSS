@@ -3,14 +3,26 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+/* #252525 svart
+#FF6803 orange 
+#F8F9FE vit
+*/
+
+
+
 html, body {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
     padding: 0;
     margin: 0;
+    
 }
 
-.border {
-    border: 1px solid #000000;
+
+a:hover{
+    color: #FF6803;
 }
+
+.buttontry:hover{
+    background-color: #ff6803;
+}
+
