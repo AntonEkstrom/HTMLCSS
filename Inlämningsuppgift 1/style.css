@@ -1,0 +1,37 @@
+@import "standard.css";
+
+/* NAVBAR TOP START*/
+
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 99, 99);
+    height: 113px;
+    width: 100%;
+    
+    
+  }
+
+
+/* .navbar-top-items{
+    display: flex;
+    
+   
+    
+}
+
+.logo{
+    display: flex;
+    
+    padding-left: 215px;
+}
+
+.navbar-top-links{
+    display: flex;
+    
+    padding-right: 215px;
+} */
+
+
+/* NAVBAR TOP END*/
