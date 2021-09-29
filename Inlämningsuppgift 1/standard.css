@@ -17,18 +17,54 @@ html, body {
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
-    background: url("images/") top center no-repeat;
+    overflow-x: hidden;
+    background: url("images/Circle.svg") top center no-repeat; 
 }
 
 .border{
     border: 1px solid black;
 }
 
+.home:active{
+    transform: translateY(2px);
+}
+
+.features:active{
+    transform: translateY(2px);
+}
+
+.pages:active{
+    transform: translateY(2px);
+}
+
+.blog:active{
+    transform: translateY(2px);
+}
+
+.contact:active{
+    transform: translateY(2px);
+}
+
 a:hover{
-    color: #FF6803;
+    color: rgb(238,48,122);
+    color: linear-gradient(93deg, rgba(238,48,122,1) 0%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
 }
 
 .buttontry:hover{
-    background-color: #ff6803c9;
+    background: rgb(238,48,122);
+    background: linear-gradient(93deg, rgba(238,48,122,1) 0%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+}
+
+.buttontry:active{
+    transform: translateY(2px);
+}
+
+.buttoncreate:hover{
+    background: rgb(255,166,46);
+    background: linear-gradient(93deg, rgba(255,166,46,1) 0%, rgba(255,104,3,1) 36%, rgba(238,48,122,1) 96%);
+}
+
+.buttoncreate:active{
+    transform: translateY(2px);
 }
 
