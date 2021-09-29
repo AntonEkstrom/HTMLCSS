@@ -184,14 +184,23 @@ li a{
     margin-top: 240px;
     height: 650px;
     width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools .container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .tools-left{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .tools-right{
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 
