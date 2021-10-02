@@ -69,3 +69,11 @@ a:hover{
     transform: translateY(2px);
 }
 
+.contact-button:hover{
+    background: rgb(255,166,46);
+    background: linear-gradient(93deg, rgba(255,166,46,1) 0%, rgba(255,104,3,1) 36%, rgba(238,48,122,1) 96%);
+}
+
+.contact-button:active{
+    transform: translateY(2px);
+}
