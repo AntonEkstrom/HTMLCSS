@@ -7,7 +7,7 @@
     background: #F8F9FE;
     display: block;
     height: 113px;
-    width: 100%;
+    width: auto;
     position: fixed;
     top: 0;
     right: 0;
@@ -82,6 +82,7 @@ li a{
     margin-top: 113px;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -418,3 +419,92 @@ li a{
 }
 /* SHOWCASE-STATS END */
 
+/* FOOTER START */
+.footer{
+    margin-top: 160px;
+    margin-bottom: 100px;
+    width: auto;
+    height: 842px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #252525;
+    line-height: 60px;
+}
+
+.footer-undertext{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #57647C;
+    margin-top: -60px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.footer-boxes{
+    display: flex;
+    width: 64%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-box{
+    box-shadow: 0 0 10px #4c589148;
+    height: 565px;
+}
+
+.orange-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FF6803;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.footer-box-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #252525;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.footer-undertexts{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #57647C;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.read-button{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: rgb(238,48,122);
+    background: linear-gradient(93deg, rgba(238,48,122,1) 0%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+/* FOOTER END */
