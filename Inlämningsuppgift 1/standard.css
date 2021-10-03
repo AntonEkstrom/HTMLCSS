@@ -47,13 +47,14 @@ html, body {
 }
 
 a:hover{
-    color: rgb(238,48,122);
-    color: linear-gradient(93deg, rgba(238,48,122,1) 0%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+    color: rgba(255,104,3,1);
+    
+    
 }
 
 .buttontry:hover{
-    background: rgb(238,48,122);
-    background: linear-gradient(93deg, rgba(238,48,122,1) 0%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+    background: rgb(242,55,121);
+    background: linear-gradient(90deg, rgba(242,55,121,1) 34%, rgba(255,166,46,1) 100%, rgba(255,104,3,1) 100%);
 }
 
 .buttontry:active{
@@ -61,8 +62,8 @@ a:hover{
 }
 
 .buttoncreate:hover{
-    background: rgb(255,166,46);
-    background: linear-gradient(93deg, rgba(255,166,46,1) 0%, rgba(255,104,3,1) 36%, rgba(238,48,122,1) 96%);
+    background: rgb(255,104,3);
+    background: linear-gradient(90deg, rgba(255,104,3,1) 0%, rgba(255,166,46,1) 0%, rgba(242,55,121,1) 66%);
 }
 
 .buttoncreate:active{
@@ -70,10 +71,19 @@ a:hover{
 }
 
 .contact-button:hover{
-    background: rgb(255,166,46);
-    background: linear-gradient(93deg, rgba(255,166,46,1) 0%, rgba(255,104,3,1) 36%, rgba(238,48,122,1) 96%);
+    background: rgb(255,104,3);
+    background: linear-gradient(90deg, rgba(255,104,3,1) 0%, rgba(255,166,46,1) 0%, rgba(242,55,121,1) 66%);
 }
 
 .contact-button:active{
+    transform: translateY(2px);
+}
+
+.read-button:hover{
+    background: rgb(255,104,3);
+    background: linear-gradient(90deg, rgba(255,104,3,1) 0%, rgba(255,166,46,1) 0%, rgba(242,55,121,1) 66%);
+}
+
+.read-button:active{
     transform: translateY(2px);
 }
